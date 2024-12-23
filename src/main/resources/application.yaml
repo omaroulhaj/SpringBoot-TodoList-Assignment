@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: todolist
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/todolist
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    sql:
+      init:
+        mode: always
